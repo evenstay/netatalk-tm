@@ -9,7 +9,7 @@ LABEL description="Netatalk AFP fileserver for the Apple TimeMachine backups"
 ARG AFP_VOL_PATH=/timemachine
 
 # Env vars
-ENV NETATALK_VERSION=3.1.12 \
+ENV NETATALK_VERSION=3.1.12-r0 \
     AFP_VOL_PATH=${AFP_VOL_PATH}
 
 WORKDIR /
